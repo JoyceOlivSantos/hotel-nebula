@@ -3,7 +3,7 @@
 
 ## Sobre o projeto
 
-O Hotel Nebula é um projeto acadêmico de banco de dados não relacional desenvolvido com MongoDB.
+O Hotel Nebula é um projeto  de banco de dados não relacional desenvolvido com MongoDB.
 
 O objetivo é simular o gerenciamento de um hotel, organizando informações sobre hóspedes, quartos, reservas, hospedagens, pagamentos, funcionários, serviços e avaliações.
 
