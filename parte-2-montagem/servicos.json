@@ -1,0 +1,54 @@
+[{
+  "_id": "srv001",
+  "nome": "Café da manhã",
+  "categoria": "Alimentação",
+  "descricao": "Café da manhã completo oferecido aos hóspedes.",
+  "preco": 35,
+  "unidade": "por pessoa",
+  "disponivel": true,
+  "horario_disponivel": {
+    "inicio": "06:00",
+    "fim": "10:00"
+  },
+  "tags": [
+    "alimentação",
+    "café",
+    "refeição"
+  ]
+},
+{
+  "_id": "srv002",
+  "nome": "Lavanderia",
+  "categoria": "Serviços",
+  "descricao": "Serviço de lavagem de roupas dos hóspedes.",
+  "preco": 25,
+  "unidade": "por peça",
+  "disponivel": true,
+  "horario_disponivel": {
+    "inicio": "08:00",
+    "fim": "18:00"
+  },
+  "tags": [
+    "lavagem",
+    "roupas",
+    "higiene"
+  ]
+},
+{
+  "_id": "srv003",
+  "nome": "Jantar",
+  "categoria": "Alimentação",
+  "descricao": "Serviço de jantar disponível no restaurante do hotel.",
+  "preco": 60,
+  "unidade": "por pessoa",
+  "disponivel": true,
+  "horario_disponivel": {
+    "inicio": "18:00",
+    "fim": "23:00"
+  },
+  "tags": [
+    "alimentação",
+    "jantar",
+    "restaurante"
+  ]
+}]

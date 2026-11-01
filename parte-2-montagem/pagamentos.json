@@ -1,0 +1,50 @@
+[{
+  "_id": "pag001",
+  "hospedagem_id": "hos001",
+  "reserva_id": "res001",
+  "hospede_id": "hsp001",
+  "valor_total": 610,
+  "status": "pago",
+  "data_pagamento": {
+    "$date": "2026-11-08T12:00:00.000Z"
+  },
+  "parcelas": [
+    {
+      "metodo": "Cartão de crédito",
+      "bandeira": "Visa",
+      "valor": 610,
+      "num_parcelas": 1,
+      "status": "aprovado",
+      "transacao_id": "TRX-NEB-001"
+    }
+  ],
+  "nota_fiscal": "NF-2026-001",
+  "data_criacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  }
+},
+{
+  "_id": "pag002",
+  "hospedagem_id": "hos002",
+  "reserva_id": "res002",
+  "hospede_id": "hsp002",
+  "valor_total": 1220,
+  "status": "pago",
+  "data_pagamento": {
+    "$date": "2026-11-13T12:00:00.000Z"
+  },
+  "parcelas": [
+    {
+      "metodo": "PIX",
+      "bandeira": null,
+      "valor": 1220,
+      "num_parcelas": 1,
+      "status": "aprovado",
+      "transacao_id": "TRX-NEB-002"
+    }
+  ],
+  "nota_fiscal": "NF-2026-002",
+  "data_criacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  }
+}]

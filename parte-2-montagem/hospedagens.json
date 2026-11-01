@@ -1,0 +1,72 @@
+[{
+  "_id": "hos001",
+  "reserva_id": "res001",
+  "hospede_id": "hsp001",
+  "quarto_id": "qrt101",
+  "checkin_real": {
+    "$date": "2026-11-05T14:00:00.000Z"
+  },
+  "checkout_real": {
+    "$date": "2026-11-08T12:00:00.000Z"
+  },
+  "status": "finalizada",
+  "funcionario_checkin_id": "fun001",
+  "funcionario_checkout_id": "fun002",
+  "servicos_consumidos": [
+    {
+      "servico_id": "srv001",
+      "nome": "Café da manhã",
+      "quantidade": 2,
+      "preco_unitario": 35,
+      "total": 70,
+      "data": {
+        "$date": "2026-11-06T08:00:00Z"
+      }
+    }
+  ],
+  "total_servicos": 70,
+  "total_diarias": 540,
+  "total_geral": 610,
+  "observacoes": "Estadia concluída sem problemas."
+},
+{
+  "_id": "hos002",
+  "reserva_id": "res002",
+  "hospede_id": "hsp002",
+  "quarto_id": "qrt202",
+  "checkin_real": {
+    "$date": "2026-11-10T14:00:00.000Z"
+  },
+  "checkout_real": {
+    "$date": "2026-11-13T12:00:00.000Z"
+  },
+  "status": "finalizada",
+  "funcionario_checkin_id": "fun001",
+  "funcionario_checkout_id": "fun002",
+  "servicos_consumidos": [
+    {
+      "servico_id": "srv002",
+      "nome": "Lavanderia",
+      "quantidade": 2,
+      "preco_unitario": 25,
+      "total": 50,
+      "data": {
+        "$date": "2026-11-11T15:00:00Z"
+      }
+    },
+    {
+      "servico_id": "srv003",
+      "nome": "Jantar",
+      "quantidade": 2,
+      "preco_unitario": 60,
+      "total": 120,
+      "data": {
+        "$date": "2026-11-12T20:00:00Z"
+      }
+    }
+  ],
+  "total_servicos": 170,
+  "total_diarias": 1050,
+  "total_geral": 1220,
+  "observacoes": "Estadia com consumo de lavanderia e jantar."
+}]

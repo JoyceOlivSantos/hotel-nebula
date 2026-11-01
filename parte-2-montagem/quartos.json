@@ -1,0 +1,56 @@
+[{
+  "_id": "qrt101",
+  "numero": 101,
+  "andar": 1,
+  "tipo": "Standard",
+  "categoria": "Econômico",
+  "capacidade_max": 2,
+  "preco_diaria": 180,
+  "descricao": "Quarto confortável para duas pessoas.",
+  "comodidades": [
+    "Wi-Fi",
+    "Ar-condicionado",
+    "TV",
+    "Frigobar"
+  ],
+  "caracteristicas": {
+    "vista": "Cidade",
+    "banheira": false,
+    "varanda": false,
+    "area_m2": 22
+  },
+  "status": "disponivel",
+  "fotos": [],
+  "ultima_limpeza": {
+    "$date": "2026-10-30T10:00:00Z"
+  }
+},
+{
+  "_id": "qrt202",
+  "numero": 202,
+  "andar": 2,
+  "tipo": "Luxo",
+  "categoria": "Premium",
+  "capacidade_max": 3,
+  "preco_diaria": 350,
+  "descricao": "Quarto amplo e confortável, ideal para famílias.",
+  "comodidades": [
+    "Wi-Fi",
+    "Ar-condicionado",
+    "TV",
+    "Frigobar",
+    "Cafeteira",
+    "Serviço de quarto"
+  ],
+  "caracteristicas": {
+    "vista": "Jardim",
+    "banheira": true,
+    "varanda": true,
+    "area_m2": 38
+  },
+  "status": "disponivel",
+  "fotos": [],
+  "ultima_limpeza": {
+    "$date": "2026-10-30T11:00:00Z"
+  }
+}]

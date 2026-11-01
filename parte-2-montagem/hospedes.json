@@ -1,0 +1,54 @@
+[{
+  "_id": "hsp001",
+  "nome": "Mariana Oliveira",
+  "cpf": "00000000000",
+  "email": "mariana@email.com",
+  "telefone": "11999990000",
+  "data_nascimento": {
+    "$date": "1998-05-12T00:00:00Z"
+  },
+  "nacionalidade": "Brasileira",
+  "endereco": {
+    "rua": "Rua das Flores",
+    "numero": "120",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "01000000"
+  },
+  "preferencias": {
+    "tipo_quarto": "Luxo",
+    "andar_preferido": 3,
+    "observacoes": "Prefere quartos silenciosos"
+  },
+  "data_cadastro": {
+    "$date": "2026-10-30T12:00:00Z"
+  },
+  "ativo": true
+},
+{
+  "_id": "hsp002",
+  "nome": "Lucas Martins",
+  "cpf": "11111111111",
+  "email": "lucas@email.com",
+  "telefone": "11988887777",
+  "data_nascimento": {
+    "$date": "1995-08-20T00:00:00Z"
+  },
+  "nacionalidade": "Brasileira",
+  "endereco": {
+    "rua": "Avenida Central",
+    "numero": "250",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "02000000"
+  },
+  "preferencias": {
+    "tipo_quarto": "Standard",
+    "andar_preferido": 2,
+    "observacoes": "Prefere quarto próximo ao elevador"
+  },
+  "data_cadastro": {
+    "$date": "2026-10-30T12:00:00Z"
+  },
+  "ativo": true
+}]

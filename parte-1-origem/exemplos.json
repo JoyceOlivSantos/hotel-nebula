@@ -1,0 +1,66 @@
+
+{
+  "hospedes": {
+    "_id": "hsp001",
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com",
+    "telefone": "11999990000",
+    "nacionalidade": "Brasileira",
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    "preferencias": {
+      "tipo_quarto": "Silencioso",
+      "fumante": false
+    },
+    "ativo": true
+  },
+  "quartos": {
+    "_id": "qrt101",
+    "numero": 101,
+    "andar": 1,
+    "tipo": "Standard",
+    "categoria": "Econômico",
+    "capacidade_max": 2,
+    "preco_diaria": 180,
+    "comodidades": [
+      "Wi-Fi",
+      "Ar-condicionado",
+      "TV"
+    ],
+    "caracteristicas": {
+      "vista": "Jardim",
+      "banheira": false,
+      "varanda": false,
+      "area_m2": 25
+    },
+    "status": "disponivel"
+  },
+  "reservas": {
+    "_id": "res001",
+    "hospede_id": "hsp001",
+    "hospede_snapshot": {
+      "nome": "Mariana Oliveira",
+      "email": "mariana@email.com"
+    },
+    "quarto_id": "qrt101",
+    "quarto_snapshot": {
+      "numero": 101,
+      "tipo": "Standard",
+      "preco_diaria": 180
+    },
+    "data_checkin": {
+      "$date": "2026-11-05T14:00:00.000Z"
+    },
+    "data_checkout": {
+      "$date": "2026-11-08T12:00:00.000Z"
+    },
+    "num_noites": 3,
+    "num_hospedes": 2,
+    "valor_total": 540,
+    "status": "confirmada",
+    "canal": "site",
+    "codigo_reserva": "HN-2026-001"
+  }
+}

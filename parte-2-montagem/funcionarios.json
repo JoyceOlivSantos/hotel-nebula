@@ -1,0 +1,49 @@
+[{
+  "_id": "fun001",
+  "nome": "Ana Costa",
+  "cpf": "22222222222",
+  "email": "ana.costa@hotelnebula.com",
+  "telefone": "11977776666",
+  "cargo": "Recepcionista",
+  "departamento": "Recepção",
+  "turno": {
+    "periodo": "Manhã",
+    "inicio": "07:00",
+    "fim": "15:00"
+  },
+  "permissoes": [
+    "realizar_checkin",
+    "consultar_reservas",
+    "atender_hospedes"
+  ],
+  "data_admissao": {
+    "$date": "2025-03-10T00:00:00Z"
+  },
+  "salario": 2800,
+  "ativo": true
+},
+{
+  "_id": "fun002",
+  "nome": "Bruno Almeida",
+  "cpf": "33333333333",
+  "email": "bruno.almeida@hotelnebula.com",
+  "telefone": "11966665555",
+  "cargo": "Supervisor de Hospedagem",
+  "departamento": "Hospedagem",
+  "turno": {
+    "periodo": "Tarde",
+    "inicio": "15:00",
+    "fim": "23:00"
+  },
+  "permissoes": [
+    "realizar_checkout",
+    "consultar_hospedagens",
+    "registrar_servicos",
+    "atender_hospedes"
+  ],
+  "data_admissao": {
+    "$date": "2025-06-15T00:00:00Z"
+  },
+  "salario": 3500,
+  "ativo": true
+}]

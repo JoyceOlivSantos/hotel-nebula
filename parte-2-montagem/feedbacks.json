@@ -1,0 +1,50 @@
+[{
+  "_id": "fb001",
+  "hospede_id": "hsp001",
+  "hospedagem_id": "hos001",
+  "quarto_id": "qrt101",
+  "data_avaliacao": {
+    "$date": "2026-11-08T13:00:00Z"
+  },
+  "nota_geral": 5,
+  "notas_detalhadas": {
+    "limpeza": 5,
+    "atendimento": 5,
+    "conforto": 4,
+    "servicos": 5
+  },
+  "comentario": "Gostei muito da hospedagem. O atendimento foi excelente e o quarto estava limpo e organizado.",
+  "resposta_hotel": {
+    "texto": "Agradecemos sua avaliação! Ficamos felizes com sua experiência.",
+    "data": {
+      "$date": "2026-11-08T15:00:00Z"
+    },
+    "funcionario_id": "fun001"
+  },
+  "visivel": true
+},
+{
+  "_id": "fb002",
+  "hospede_id": "hsp002",
+  "hospedagem_id": "hos002",
+  "quarto_id": "qrt202",
+  "data_avaliacao": {
+    "$date": "2026-11-13T13:00:00Z"
+  },
+  "nota_geral": 4,
+  "notas_detalhadas": {
+    "limpeza": 5,
+    "atendimento": 4,
+    "conforto": 5,
+    "servicos": 4
+  },
+  "comentario": "O quarto era muito confortável e os serviços foram bons. Gostei bastante da experiência.",
+  "resposta_hotel": {
+    "texto": "Obrigado por compartilhar sua experiência! Esperamos recebê-lo novamente.",
+    "data": {
+      "$date": "2026-11-13T15:00:00Z"
+    },
+    "funcionario_id": "fun002"
+  },
+  "visivel": true
+}]

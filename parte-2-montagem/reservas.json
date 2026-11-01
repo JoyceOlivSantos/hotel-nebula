@@ -1,0 +1,429 @@
+[{
+  "_id": "res001",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt101",
+  "quarto_snapshot": {
+    "numero": 101,
+    "tipo": "Standard",
+    "preco_diaria": 180
+  },
+  "data_checkin": {
+    "$date": "2026-11-05T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-08T12:00:00.000Z"
+  },
+  "num_noites": 3,
+  "num_hospedes": 2,
+  "valor_total": 540,
+  "status": "confirmada",
+  "canal": "site",
+  "codigo_reserva": "HN-2026-001",
+  "observacoes": "Hóspede prefere quarto silencioso.",
+  "data_criacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  }
+},
+{
+  "_id": "res002",
+  "hospede_id": "hsp002",
+  "hospede_snapshot": {
+    "nome": "Lucas Martins",
+    "email": "lucas@email.com"
+  },
+  "quarto_id": "qrt202",
+  "quarto_snapshot": {
+    "numero": 202,
+    "tipo": "Luxo",
+    "preco_diaria": 350
+  },
+  "data_checkin": {
+    "$date": "2026-11-10T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-13T12:00:00.000Z"
+  },
+  "num_noites": 3,
+  "num_hospedes": 2,
+  "valor_total": 1050,
+  "status": "confirmada",
+  "canal": "aplicativo",
+  "codigo_reserva": "HN-2026-002",
+  "observacoes": "Hóspede solicitou quarto com varanda.",
+  "data_criacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  }
+},
+{
+  "_id": "res003",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt101",
+  "quarto_snapshot": {
+    "numero": 101,
+    "tipo": "Standard",
+    "preco_diaria": 180
+  },
+  "data_checkin": {
+    "$date": "2026-11-20T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-22T12:00:00.000Z"
+  },
+  "num_noites": 2,
+  "num_hospedes": 2,
+  "valor_total": 360,
+  "status": "confirmada",
+  "canal": "site",
+  "codigo_reserva": "HN-2026-003",
+  "observacoes": "Segunda reserva da hóspede Mariana.",
+  "data_criacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-30T12:00:00Z"
+  }
+},
+{
+  "_id": "res004",
+  "hospede_id": "hsp002",
+  "hospede_snapshot": {
+    "nome": "Lucas Martins",
+    "email": "lucas@email.com"
+  },
+  "quarto_id": "qrt202",
+  "quarto_snapshot": {
+    "numero": 202,
+    "tipo": "Luxo",
+    "preco_diaria": 350
+  },
+  "data_checkin": {
+    "$date": "2026-11-14T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-16T12:00:00.000Z"
+  },
+  "num_noites": 2,
+  "num_hospedes": 2,
+  "valor_total": 700,
+  "status": "confirmada",
+  "canal": "site",
+  "codigo_reserva": "HN-2026-004",
+  "observacoes": "Reserva para final de semana.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res005",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt101",
+  "quarto_snapshot": {
+    "numero": 101,
+    "tipo": "Standard",
+    "preco_diaria": 180
+  },
+  "data_checkin": {
+    "$date": "2026-11-09T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-11T12:00:00.000Z"
+  },
+  "num_noites": 2,
+  "num_hospedes": 2,
+  "valor_total": 360,
+  "status": "confirmada",
+  "canal": "aplicativo",
+  "codigo_reserva": "HN-2026-005",
+  "observacoes": "Segunda estadia planejada no mês.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res006",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt202",
+  "quarto_snapshot": {
+    "numero": 202,
+    "tipo": "Luxo",
+    "preco_diaria": 350
+  },
+  "data_checkin": {
+    "$date": "2026-11-17T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-19T12:00:00.000Z"
+  },
+  "num_noites": 2,
+  "num_hospedes": 2,
+  "valor_total": 700,
+  "status": "confirmada",
+  "canal": "site",
+  "codigo_reserva": "HN-2026-006",
+  "observacoes": "Hóspede solicitou quarto premium.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res007",
+  "hospede_id": "hsp002",
+  "hospede_snapshot": {
+    "nome": "Lucas Martins",
+    "email": "lucas@email.com"
+  },
+  "quarto_id": "qrt101",
+  "quarto_snapshot": {
+    "numero": 101,
+    "tipo": "Standard",
+    "preco_diaria": 180
+  },
+  "data_checkin": {
+    "$date": "2026-11-23T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-26T12:00:00.000Z"
+  },
+  "num_noites": 3,
+  "num_hospedes": 2,
+  "valor_total": 540,
+  "status": "confirmada",
+  "canal": "telefone",
+  "codigo_reserva": "HN-2026-007",
+  "observacoes": "Reserva realizada por telefone.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res008",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt202",
+  "quarto_snapshot": {
+    "numero": 202,
+    "tipo": "Luxo",
+    "preco_diaria": 350
+  },
+  "data_checkin": {
+    "$date": "2026-11-27T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-11-30T12:00:00.000Z"
+  },
+  "num_noites": 3,
+  "num_hospedes": 2,
+  "valor_total": 1050,
+  "status": "confirmada",
+  "canal": "aplicativo",
+  "codigo_reserva": "HN-2026-008",
+  "observacoes": "Reserva para três noites.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res009",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt101",
+  "quarto_snapshot": {
+    "numero": 101,
+    "tipo": "Standard",
+    "preco_diaria": 180
+  },
+  "data_checkin": {
+    "$date": "2026-12-02T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-12-04T12:00:00.000Z"
+  },
+  "num_noites": 2,
+  "num_hospedes": 2,
+  "valor_total": 360,
+  "status": "confirmada",
+  "canal": "site",
+  "codigo_reserva": "HN-2026-009",
+  "observacoes": "Reserva para início de dezembro.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res010",
+  "hospede_id": "hsp002",
+  "hospede_snapshot": {
+    "nome": "Lucas Martins",
+    "email": "lucas@email.com"
+  },
+  "quarto_id": "qrt202",
+  "quarto_snapshot": {
+    "numero": 202,
+    "tipo": "Luxo",
+    "preco_diaria": 350
+  },
+  "data_checkin": {
+    "$date": "2026-12-04T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-12-07T12:00:00.000Z"
+  },
+  "num_noites": 3,
+  "num_hospedes": 2,
+  "valor_total": 1050,
+  "status": "confirmada",
+  "canal": "aplicativo",
+  "codigo_reserva": "HN-2026-010",
+  "observacoes": "Reserva para três noites.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res011",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt202",
+  "quarto_snapshot": {
+    "numero": 202,
+    "tipo": "Luxo",
+    "preco_diaria": 350
+  },
+  "data_checkin": {
+    "$date": "2026-12-10T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-12-12T12:00:00.000Z"
+  },
+  "num_noites": 2,
+  "num_hospedes": 2,
+  "valor_total": 700,
+  "status": "confirmada",
+  "canal": "site",
+  "codigo_reserva": "HN-2026-011",
+  "observacoes": "Reserva de quarto premium.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res012",
+  "hospede_id": "hsp002",
+  "hospede_snapshot": {
+    "nome": "Lucas Martins",
+    "email": "lucas@email.com"
+  },
+  "quarto_id": "qrt101",
+  "quarto_snapshot": {
+    "numero": 101,
+    "tipo": "Standard",
+    "preco_diaria": 180
+  },
+  "data_checkin": {
+    "$date": "2026-12-15T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-12-17T12:00:00.000Z"
+  },
+  "num_noites": 2,
+  "num_hospedes": 2,
+  "valor_total": 360,
+  "status": "confirmada",
+  "canal": "telefone",
+  "codigo_reserva": "HN-2026-012",
+  "observacoes": "Reserva realizada por telefone.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+},
+{
+  "_id": "res013",
+  "hospede_id": "hsp001",
+  "hospede_snapshot": {
+    "nome": "Mariana Oliveira",
+    "email": "mariana@email.com"
+  },
+  "quarto_id": "qrt101",
+  "quarto_snapshot": {
+    "numero": 101,
+    "tipo": "Standard",
+    "preco_diaria": 180
+  },
+  "data_checkin": {
+    "$date": "2026-12-20T14:00:00.000Z"
+  },
+  "data_checkout": {
+    "$date": "2026-12-23T12:00:00.000Z"
+  },
+  "num_noites": 3,
+  "num_hospedes": 2,
+  "valor_total": 540,
+  "status": "confirmada",
+  "canal": "aplicativo",
+  "codigo_reserva": "HN-2026-013",
+  "observacoes": "Reserva para três noites.",
+  "data_criacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  },
+  "data_atualizacao": {
+    "$date": "2026-10-31T12:00:00.000Z"
+  }
+}]
